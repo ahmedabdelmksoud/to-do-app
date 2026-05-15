@@ -147,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 _tasks.isEmpty
                     ? 'No tasks yet'
                     : _completedCount == _tasks.length
-                    ? 'All done! Great job!'
+                    ? 'All done! 🎉'
                     : '${_tasks.length - _completedCount} remaining',
                 style: TextStyle(
                   color: Colors.white.withOpacity(0.8),
